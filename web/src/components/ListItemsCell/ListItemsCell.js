@@ -1,6 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 
-import Items from 'src/components/Items'
+import PublicItems from 'src/components/PublicItems'
 
 export const QUERY = gql`
   query ITEMS {
@@ -30,5 +30,5 @@ export const Empty = () => {
 }
 
 export const Success = ({ items }) => {
-  return <Items items={items} />
+  return <PublicItems items={items} />
 }
