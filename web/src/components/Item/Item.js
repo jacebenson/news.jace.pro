@@ -87,7 +87,7 @@ const Item = ({ item }) => {
             </tr>
             <tr>
               <th>Created at</th>
-              <td>{timeTag(item.createdAt)}</td>
+              <td>{timeTag(item.created)}</td>
             </tr>
           </tbody>
         </table>

@@ -1,12 +1,13 @@
 import { Link, routes } from '@redwoodjs/router'
 import SiteLayout from 'src/layouts/SiteLayout/SiteLayout'
-import ListItemsCell from 'src/components/ListItemsCell'
-const HomePage = () => {
-  return (
+import PublicItemsCell from 'src/components/PublicItemsCell'
+const HomePage = (query) => {
+  //console.log('query from homepage.js', query.query);
+   return (
     <>
       <SiteLayout>
         This is Home!
-        <ListItemsCell/>
+        <PublicItemsCell query={query}/>
       </SiteLayout>
     </>
   )

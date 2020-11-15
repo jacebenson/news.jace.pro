@@ -14,9 +14,12 @@ const SiteLayout = ({ children }) => {
         </div>
       </div>
     </header>
+    <div className="content">
+
+
 
     {children}
-
+    </div>
     <footer>
       <div className="footer-top">
         <div className="container">

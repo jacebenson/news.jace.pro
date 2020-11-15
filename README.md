@@ -27,7 +27,10 @@ docker-compose -f postgres-docker.yml up
 
 Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/.redwood/functions/*`.
 
-Postgres will be availble on port 5432, and you can see the db content via adminer on port `http://localhost:8080`.
+Postgres will be availble on port 5432, and you can see the db content via adminer on port
+`http://localhost:8080`.
+
 Postgres default username: postgres
+
 Postgres default password: example
 

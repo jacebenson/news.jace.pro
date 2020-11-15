@@ -85,7 +85,21 @@ const ItemForm = (props) => {
           className="rw-input"
           errorClassName="rw-input rw-input-error"
           validation={{ required: true }}
+        /> <Label
+          name="created"
+          className="rw-label"
+          errorClassName="rw-label rw-label-error"
+        >
+          created
+        </Label>
+        <TextField
+          name="created"
+          defaultValue={props.item?.created}
+          className="rw-input"
+          errorClassName="rw-input rw-input-error"
+          validation={{ required: true }}
         />
+
         <FieldError name="source" className="rw-field-error" />
 
         <Label

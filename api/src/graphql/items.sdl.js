@@ -6,7 +6,7 @@ export const schema = gql`
     authors: JSON!
     source: String!
     type: String!
-    createdAt: DateTime!
+    created: DateTime!
   }
 
   type Query {
@@ -28,6 +28,7 @@ export const schema = gql`
     authors: JSON
     source: String
     type: String
+    created: DateTime
   }
 
   type Mutation {

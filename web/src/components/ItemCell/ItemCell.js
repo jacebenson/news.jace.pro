@@ -9,7 +9,7 @@ export const QUERY = gql`
       authors
       source
       type
-      createdAt
+      created
     }
   }
 `

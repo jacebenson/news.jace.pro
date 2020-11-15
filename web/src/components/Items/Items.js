@@ -80,7 +80,7 @@ const ItemsList = ({ items }) => {
               <td>{jsonTruncate(item.authors)}</td>
               <td>{truncate(item.source)}</td>
               <td>{truncate(item.type)}</td>
-              <td>{timeTag(item.createdAt)}</td>
+              <td>{timeTag(item.created)}</td>
               <td>
                 <nav className="rw-table-actions">
                   <Link

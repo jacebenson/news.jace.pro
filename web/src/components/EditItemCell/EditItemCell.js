@@ -11,7 +11,7 @@ export const QUERY = gql`
       authors
       source
       type
-      createdAt
+      created
     }
   }
 `
@@ -24,7 +24,7 @@ const UPDATE_ITEM_MUTATION = gql`
       authors
       source
       type
-      createdAt
+      created
     }
   }
 `
